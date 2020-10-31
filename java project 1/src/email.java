@@ -11,7 +11,6 @@ public class email {
 	private String alternateEmail;
 	private String companyName="matsys.com";
 	
-	// Constructor for create mail
 	
 public email (String firstName, String lastName) 
 	{
@@ -29,7 +28,7 @@ public email (String firstName, String lastName)
 		  System.out.print("Your email id is-"+Email);
 	}
 	
-	// method for department
+	
 	 private String setDepartment()
 	 {
 		 System.out.print("DEPARTMENT CODE : \n1 for sales\n2 for development\n3 for accounting\n0 for none\nEnter department code: ");
@@ -41,7 +40,7 @@ public email (String firstName, String lastName)
 		else {return " ";} 
 	 }
 	 
-	 // method for password
+	 
 	  private String randomPassword(int length)
 	  {
 		  String passwordSet ="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&";
